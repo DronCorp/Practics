@@ -1,0 +1,35 @@
+<!--<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Registration page">
+		<title>OmicronFiles</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<center><h1>Registration page</h1></center>
+		<a href="C:\Users\Andro\Desktop\newFolder\Practica\lk.html">Personal page</a>
+	</body>
+</html>
+-->
+<!DOCTYPE html>
+<html>
+	  <head>
+		      <title>Регистрация</title>
+		        </head>
+				<style>
+                        body
+                                {
+                                        background-color: #FFD39B;
+                                }
+                </style>
+			  <body>
+				      <form action="" method="post">
+					            {% csrf_token %}
+						          <!-- as_p для того, чтобы каждый элемент формы был с новой строки -->
+							        {{ form.as_p }}
+								      <button type="submit">Войти</button>
+								          </form>
+									    </body>
+</html>
